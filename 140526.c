@@ -6,7 +6,7 @@ int main(){
 
     for (int i=0; i<7; i++){
         printf("%d ", numeros [i]);
-        printf("%d\n", *(ptr+i));
+        printf("%d\n", *(ptr++));
     }
     return 0;
 }
